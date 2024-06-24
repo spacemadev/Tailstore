@@ -8,7 +8,7 @@ Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/t
 
 ### Template Page:
 
-Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-free-tailwind-business-template/).
+Visit the Elevate Tailwind template page [here](https://spacema-dev.com/tailstore-free-tailwind-css-ecommerce-template-for-online-store/).
 
 ## Features Overview:
 ### Main Page:
