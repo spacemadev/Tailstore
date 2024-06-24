@@ -17,7 +17,7 @@ Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-
 - Latest/Popular Products: Keep customers informed and engaged with sections dedicated to the newest and most popular products.
 - Blog Section: Integrate a blog to share news, updates, and articles, boosting your content marketing strategy.
 - Subscription Form: Build your email list effortlessly with an attractive and easy-to-use subscription form.
-- 
+  
 ### Shop Page:
 - Product Filters: Enhance the shopping experience with advanced filters, allowing users to sort products by categories, prices, and other criteria.
 - Product Listings: Present your products in a clean and organized manner, highlighting key details and high-quality images.
@@ -27,7 +27,7 @@ Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-
 - Customer Reviews: Build trust with an integrated review section where customers can share their experiences.
 - Information Tabs: Organize product details into tabs for easy navigation and readability.
 - Social Sharing: Increase product visibility with social sharing buttons, encouraging customers to share on their favorite platforms.
-- 
+  
 ### Additional Features:
 - User Authentication: User-friendly registration and login pages to facilitate a smooth user experience.
 - 404 Error Page: Custom 404 page to guide users back to the main site seamlessly.
@@ -35,6 +35,6 @@ Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-
 - Shopping Cart: A structured cart page featuring a coupon code field for discounts and promotions.
 - Header with Cart Module
 
-### Responsive Design: A sticky, responsive header with an integrated cart module, ensuring users can access their cart from any page on the site.
+Responsive Design: A sticky, responsive header with an integrated cart module, ensuring users can access their cart from any page on the site.
 
 Tailstore is built with flexibility in mind, allowing easy customization to match your brand's unique style. The clean codebase and comprehensive documentation make it simple to set up and modify, helping you get your online store up and running quickly.
