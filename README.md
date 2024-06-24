@@ -1,4 +1,4 @@
-![Elevate Template](https://spacema-dev.com/tailstore/fullimage.png)
+![Tailstore Template](https://spacema-dev.com/tailstore/fullimage.png)
 
 # Tailstore - Free Tailwind CSS eCommerce Template
 
@@ -40,3 +40,39 @@ Visit the Elevate Tailwind template page [here](https://spacema-dev.com/tailstor
 Responsive Design: A sticky, responsive header with an integrated cart module, ensuring users can access their cart from any page on the site.
 
 Tailstore is built with flexibility in mind, allowing easy customization to match your brand's unique style. The clean codebase and comprehensive documentation make it simple to set up and modify, helping you get your online store up and running quickly.
+
+### License:
+
+This template is licensed under the MIT License. 
+
+### How to Install:
+
+To use Tailstore free tailwindcss template template, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies using npm:
+
+```
+npm install
+```
+
+Start the development server to customize the template:
+
+```
+npm run dev
+```
+
+This will compile Tailwind CSS and watch for changes in your CSS files.
+
+Once you're done customizing, build the production version:
+
+```
+npm run build
+```
+
+This will minify the CSS for production use.
+
+### Images:
+
+Some images used in this template are designed by Freepik. You can find more of their work at [Freepik](https://www.freepik.com/).
+
