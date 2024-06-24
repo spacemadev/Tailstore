@@ -12,6 +12,10 @@ Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/t
 
 Visit the Elevate Tailwind template page [here](https://spacema-dev.com/tailstore-free-tailwind-css-ecommerce-template-for-online-store/).
 
+### More free tailwind templates [Free Tailwind Css Templates](https://spacema-dev.com/free-tailwind-css-templates/) 
+
+## If you like this template, please give a ⭐ to this repository!
+
 ## Features Overview:
 ### Main Page:
 - Swiper Slider: Engage your visitors with an eye-catching Swiper slider, ideal for featuring top products, promotions, or announcements.
