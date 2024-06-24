@@ -1,3 +1,5 @@
+![Elevate Template](https://spacema-dev.com/tailstore/fullimage.png)
+
 # Tailstore - Free Tailwind CSS eCommerce Template
 
 Tailstore is a beautifully designed, fully responsive eCommerce template built with Tailwind CSS, crafted to help you create elegant online stores effortlessly. With a focus on user experience and modern design principles, Tailstore offers all the necessary components to launch a professional and visually appealing online shop.
