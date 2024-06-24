@@ -14,7 +14,7 @@ Visit the Elevate Tailwind template page [here](https://spacema-dev.com/tailstor
 
 ### More free tailwind templates [Free Tailwind Css Templates](https://spacema-dev.com/free-tailwind-css-templates/) 
 
-## If you like this template, please give a ⭐ to this repository!
+### If you like this template, please give a ⭐ to this repository!
 
 ## Features Overview:
 ### Main Page:
