@@ -5,15 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Favicon -->
         <link rel="icon" type="icon" href="assets/images/favicon.png" />
-        <title>Home page</title>
-
+        <title>About page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
             rel="stylesheet"
         />
-
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -22,7 +20,6 @@
         <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
     </head>
-
     <body>
         <!-- Header -->
         <header class="bg-gray-dark sticky top-0 z-50">
@@ -39,7 +36,6 @@
                         />
                     </div>
                 </a>
-
                 <!-- Hamburger menu (for mobile) -->
                 <div class="flex lg:hidden">
                     <button
@@ -61,7 +57,6 @@
                         </svg>
                     </button>
                 </div>
-
                 <!-- Center section: Menu -->
                 <nav class="hidden lg:flex md:flex-grow justify-center">
                     <ul class="flex justify-center space-x-4 text-white">
@@ -72,7 +67,6 @@
                                 >Home</a
                             >
                         </li>
-
                         <!-- Men Dropdown -->
                         <li class="relative group" x-data="{ open: false }">
                             <a
@@ -122,7 +116,6 @@
                                 </li>
                             </ul>
                         </li>
-
                         <!-- Women Dropdown -->
                         <li class="relative group" x-data="{ open: false }">
                             <a
@@ -172,7 +165,6 @@
                                 </li>
                             </ul>
                         </li>
-
                         <li>
                             <a
                                 href="shop.html"
@@ -185,13 +177,6 @@
                                 href="single-product-page.html"
                                 class="hover:text-secondary font-semibold"
                                 >Product</a
-                            >
-                        </li>
-                        <li>
-                            <a
-                                href="404.html"
-                                class="hover:text-secondary font-semibold"
-                                >404 page</a
                             >
                         </li>
                         <li>
@@ -210,7 +195,6 @@
                         </li>
                     </ul>
                 </nav>
-
                 <!-- Right section: Buttons (for desktop) -->
                 <div class="hidden lg:flex items-center space-x-4 relative">
                     <a
@@ -305,7 +289,6 @@
                 </div>
             </div>
         </header>
-
         <!-- Mobile menu -->
         <nav
             id="mobile-menu-placeholder"
@@ -319,7 +302,6 @@
                         >Home</a
                     >
                 </li>
-
                 <!-- Men Dropdown -->
                 <li class="relative group" x-data="{ open: false }">
                     <a
@@ -369,7 +351,6 @@
                         </li>
                     </ul>
                 </li>
-
                 <!-- Women Dropdown -->
                 <li class="relative group" x-data="{ open: false }">
                     <a
@@ -419,7 +400,6 @@
                         </li>
                     </ul>
                 </li>
-
                 <li>
                     <a
                         href="shop.html"
@@ -432,13 +412,6 @@
                         href="single-product-page.html"
                         class="hover:text-secondary font-bold block py-2"
                         >Product</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="404.html"
-                        class="hover:text-secondary font-bold block py-2"
-                        >404 page</a
                     >
                 </li>
                 <li>
@@ -470,76 +443,384 @@
                 <a
                     href="register.html"
                     class="bg-primary hover:bg-transparent text-white hover:text-primary border border-primary font-semibold px-4 py-2 rounded-full inline-block flex items-center justify-center min-w-[110px]"
-                    >Cart -&nbsp;<span>5</span>&nbsp;items</a
-                >
+                    >Cart -&nbsp; <span>5</span>&nbsp;items
+                </a>
             </div>
         </nav>
-
         <!-- About Section -->
-        <section class="about-section container mx-auto px-4 py-10 text-center">
-            
+        <section
+            class="grid gap-y-10 about-section container mx-auto px-4 py-10 text-center"
+        >
             <h1 class="text-4xl font-bold text-primary mb-8">About Us</h1>
 
             <div
-                    class="team-grid grid grid-cols-3 md:grid-cols-3 gap-6 mt-6 py-16 border-2 shadow-2xl"
-                >
-                <h2 class="text-2xl col-span-3 font-semibold mb-4 text-secondary">
-                    Meet Our Team
-                </h2>
-                    <div class="team-member text-center">
-                        <img
-                            src="assets/images/member_images/22127380.jpg"
-                            alt="Team Member"
-                            class="w-48 h-48 mx-auto rounded-full mb-4"
-                        />
-                        <h3 class="font-semibold text-lg text-primary">
-                            Nguyễn Huy Tấn
-                        </h3>
-                        <p class="text-gray-600">Member</p>
-                    </div>
-                    <div class="team-member text-center">
-                        <img
-                            src="assets/images/member_images/22127467.jpg"
-                            alt="Team Member"
-                            class="w-48 h-48 mx-auto rounded-full mb-4"
-                        />
-                        <h3 class="font-semibold text-lg text-primary">
-                            Nguyễn Văn Xanh
-                        </h3>
-                        <p class="text-gray-600">Member</p>
-                    </div>
-                    <div class="team-member text-center">
-                        <img
-                            src="assets/images/member_images/22127093.jpg"
-                            alt="Team Member"
-                            class="w-48 h-48 mx-auto rounded-full mb-4"
-                        />
-                        <h3 class="font-semibold text-lg text-primary">
-                            Nguyễn Ngọc Giang
-                        </h3>
-                        <p class="text-gray-600">Member</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div
-                class="about-content bg-white shadow-lg rounded-lg p-6 md:p-12"
+                class="about-content bg-gray-line shadow-lg rounded-lg p-6 md:p-12"
             >
                 <h2 class="text-2xl font-semibold mb-4 text-secondary">
                     Our Mission
                 </h2>
                 <p class="text-lg text-gray-700 mb-8">
-                    Our mission is to provide high-quality products that inspire and provide for customers a colourful life.
+                    Our mission is to provide high-quality products that inspire
+                    and provide for customers a colorful life.
                 </p>
+            </div>
 
+            <div
+                class="about-content bg-gray-line shadow-lg rounded-lg p-6 md:p-12"
+            >
                 <h2 class="text-2xl font-semibold mb-4 text-secondary">
                     Our Vision
                 </h2>
                 <p class="text-lg text-gray-700 mb-8">
-                    We envision a world where everyone can access the products they need easily.
+                    We envision a world where everyone can access the products
+                    they need easily.
                 </p>
-                
+            </div>
+
+            <div
+                class="bg-gray-line team-grid grid grid-cols-1 md:grid-cols-3 gap-32 md:gap-2 p-16 shadow-lg rounded-lg"
+            >
+                <h2
+                    class="text-2xl md:col-span-3 font-semibold md:mb-14 text-secondary"
+                >
+                    Meet Our Team
+                </h2>
+                <div class="grid text-center">
+                    <img
+                        src="assets/images/member_images/22127380.jpg"
+                        alt="Team Member"
+                        class="w-48 h-48 mx-auto rounded-full mb-4"
+                    />
+                    <h3 class="font-semibold text-lg text-primary">
+                        Nguyễn Huy Tấn
+                    </h3>
+                    <p class="text-gray-600 mb-3">Member</p>
+                    <div class="place-self-center flex flex-row gap-x-2">
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100020536624595"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/facebook.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/dilys.153/"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/instagram.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid text-center">
+                    <img
+                        src="assets/images/member_images/22127467.jpg"
+                        alt="Team Member"
+                        class="w-48 h-48 mx-auto rounded-full mb-4"
+                    />
+                    <h3 class="font-semibold text-lg text-primary">
+                        Nguyễn Văn Xanh
+                    </h3>
+                    <p class="text-gray-600 mb-3">Member</p>
+                    <div class="place-self-center flex flex-row gap-x-2">
+                        <a
+                            href="https://www.facebook.com/xanh.nguyen.14289210"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/facebook.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/nvxanh_1922/"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/instagram.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid text-center">
+                    <img
+                        src="assets/images/member_images/22127093.jpg"
+                        alt="Team Member"
+                        class="w-48 h-48 mx-auto rounded-full mb-4"
+                    />
+                    <h3 class="font-semibold text-lg text-primary">
+                        Nguyễn Ngọc Giang
+                    </h3>
+                    <p class="text-gray-600 mb-3">Member</p>
+                    <div class="place-self-center flex flex-row gap-x-2">
+                        <a
+                            href="https://www.facebook.com/ngcgiang18.03"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/facebook.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/ngcgiang_._._/"
+                            class="hover:text-primary"
+                            target="_blank"
+                        >
+                            <img
+                                src="/assets/images/social_icons/instagram.svg"
+                                alt="Facebook"
+                                class="w-4 h-4 transition-transform transform hover:scale-110"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-gray-line">
+            <!-- Top part -->
+            <div class="container mx-auto px-4 py-10">
+                <div class="flex flex-wrap -mx-4">
+                    <!-- Menu 1 -->
+                    <div
+                        class="w-full md:w-1/6 px-4 mb-8 justify-items-centercenter"
+                    >
+                        <h3 class="text-lg font-semibold mb-4">Shop</h3>
+                        <ul>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Shop</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Women</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Men</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Shoes</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Accessories</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Menu 2 -->
+                    <div class="w-full sm:w-1/6 px-4 mb-8">
+                        <h3 class="text-lg font-semibold mb-4">Pages</h3>
+                        <ul>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Shop</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/shop.html" class="hover:text-primary"
+                                    >Product</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="/checkout.html"
+                                    class="hover:text-primary"
+                                    >Checkout</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/about.html" class="hover:text-primary"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/404.html" class="hover:text-primary"
+                                    >404</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Menu 3 -->
+                    <div class="w-full sm:w-1/6 px-4 mb-8">
+                        <h3 class="text-lg font-semibold mb-4">Account</h3>
+                        <ul>
+                            <li>
+                                <a href="/cart.html" class="hover:text-primary"
+                                    >Cart</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="/register.html"
+                                    class="hover:text-primary"
+                                    >Registration</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/login.html" class="hover:text-primary"
+                                    >Login</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Social Media -->
+                    <div class="w-full sm:w-1/6 px-4 mb-8">
+                        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                        <ul>
+                            <li class="flex items-center mb-2">
+                                <img
+                                    src="/assets/images/social_icons/facebook.svg"
+                                    alt="Facebook"
+                                    class="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
+                                />
+                                <a href="#" class="hover:text-primary"
+                                    >Facebook</a
+                                >
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <img
+                                    src="/assets/images/social_icons/twitter.svg"
+                                    alt="Twitter"
+                                    class="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
+                                />
+                                <a href="#" class="hover:text-primary"
+                                    >Twitter</a
+                                >
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <img
+                                    src="/assets/images/social_icons/instagram.svg"
+                                    alt="Instagram"
+                                    class="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
+                                />
+                                <a href="#" class="hover:text-primary"
+                                    >Instagram</a
+                                >
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <img
+                                    src="/assets/images/social_icons/pinterest.svg"
+                                    alt="Instagram"
+                                    class="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
+                                />
+                                <a href="#" class="hover:text-primary"
+                                    >Pinterest</a
+                                >
+                            </li>
+                            <li class="flex items-center mb-2">
+                                <img
+                                    src="/assets/images/social_icons/youtube.svg"
+                                    alt="Instagram"
+                                    class="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
+                                />
+                                <a href="#" class="hover:text-primary"
+                                    >YouTube</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="w-full sm:w-2/6 px-4 mb-8">
+                        <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                        <p>
+                            <img
+                                src="assets/images/template-logo.png"
+                                alt="Logo"
+                                class="h-[60px] mb-4 hidden md:block"
+                            />
+                        </p>
+                        <p>123 Street Name, Paris, France</p>
+                        <p class="text-xl font-bold my-4">
+                            Phone: (123) 456-7890
+                        </p>
+                        <a href="mailto:info@company.com" class="underline"
+                            >Email: info@company.com</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom part -->
+            <div class="py-6 border-t border-gray-line">
+                <div
+                    class="container mx-auto px-4 flex flex-wrap justify-between items-center"
+                >
+                    <!-- Copyright and Links -->
+                    <div
+                        class="w-full lg:w-3/4 text-center lg:text-left mb-4 lg:mb-0"
+                    >
+                        <p class="mb-2 font-bold">
+                            &copy; 2024 Your Company. All rights reserved.
+                        </p>
+                        <ul
+                            class="flex justify-center lg:justify-start space-x-4 mb-4 lg:mb-0"
+                        >
+                            <li>
+                                <a href="#" class="hover:text-primary"
+                                    >Privacy Policy</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary"
+                                    >Terms of Service</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-primary">FAQ</a>
+                            </li>
+                        </ul>
+                        <p class="text-sm mt-4">
+                            Your shop's description goes here. This is a brief
+                            introduction to your shop and what you offer.
+                        </p>
+                    </div>
+                    <!-- Payment Icons -->
+                    <div class="w-full lg:w-1/4 text-center lg:text-right">
+                        <img
+                            src="/assets/images/social_icons/paypal.svg"
+                            alt="PayPal"
+                            class="inline-block h-8 mr-2"
+                        />
+                        <img
+                            src="/assets/images/social_icons/stripe.svg"
+                            alt="Stripe"
+                            class="inline-block h-8 mr-2"
+                        />
+                        <img
+                            src="/assets/images/social_icons/visa.svg"
+                            alt="Visa"
+                            class="inline-block h-8"
+                        />
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script
             src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
