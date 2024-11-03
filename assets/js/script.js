@@ -203,3 +203,32 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
+
+document.getElementById("write-review-link").addEventListener("click", function(event) {
+    event.preventDefault(); // Ngăn hành động mặc định của liên kết
+
+    // Activate tab "Reviews"
+    activateTab("reviews-tab", "reviews-content");
+
+    // scroll to review form
+    document.querySelector("#reviews-content").scrollIntoView({
+        behavior: "smooth" // Hiệu ứng cuộn mượt
+    });
+});
+
+// Activate review tab and hiden the other
+function activateTab(tabId, contentId) {
+    // delete class 'active' and 'hidden' 
+    document.querySelectorAll("[role='tab']").forEach(tab => {
+        tab.classList.remove("active");
+        tab.setAttribute("aria-selected", "false");
+    });
+    document.querySelectorAll(".tab-content").forEach(content => {
+        content.classList.add("hidden");
+    });
+
+    // Kích hoạt tab được chọn và hiển thị nội dung tương ứng
+    document.getElementById(tabId).classList.add("active");
+    document.getElementById(tabId).setAttribute("aria-selected", "true");
+    document.getElementById(contentId).classList.remove("hidden");
+}
