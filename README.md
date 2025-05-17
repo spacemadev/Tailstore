@@ -6,7 +6,7 @@ Tailstore is a beautifully designed, fully responsive eCommerce template built w
 
 ### Demo:
 
-Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/tailstore/).
+Check out the demo of Tailstore Tailwind template [here](https://spacema-dev.com/tailstore/).
 
 ### Template Page:
 
